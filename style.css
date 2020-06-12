@@ -9,5 +9,34 @@
 }
 
 body {
+    background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+header {
+    align-items: center;
+    background-image: URL('./guitar.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px;
+    position: relative;
 }
