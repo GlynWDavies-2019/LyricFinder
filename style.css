@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #FFEBCD;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
@@ -22,7 +22,6 @@ button:active {
     transform: scale(0.95);
 }
 
-input:focus,
 button:focus {
     outline: none;
 }
@@ -56,37 +55,55 @@ header * {
 }
 
 header h1 {
+    font-size: 2.5rem;
     margin: 0px 0px 30px;
 }
 
 form {
-    position: relative;
+    display: flex;
     max-width: 100%;
-    width: 500px;
+    width: 400px;
 }
 
 form input {
+    background-color: transparent;
     border: 0px;
     border-radius: 50px;
-    font-size: 16px;
-    padding: 15px 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 10px;
+    outline: 1px solid #FFFFFF;
+    padding: 15px 10px;
     width: 100%;
 }
 
 form button {
-    background-color: #000000;
+    background-color: #DC143C;
     border: 0px;
-    border-radius: 50%;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 20px;
+    outline: 1px solid #DC143C;
     padding: 13px 30px;
-    position: absolute;
-    right: 2px;
-    top: 2px;
+}
+
+.error-message {
+    background-color: #FFFF00;
+    color: #000000;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.visible {
+    display: block;
+}
+
+.invisible {
+    display: none;
 }
 
 .btn {
-    background-color: #8D56FD;
+    /* background-color: #8D56FD; */
+    background-color: #FF8C00;
     border: 0px;
     border-radius: 10px;
     color: #FFFFFF;
