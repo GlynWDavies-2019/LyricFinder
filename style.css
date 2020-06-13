@@ -40,3 +40,91 @@ header {
     padding: 100px 0px;
     position: relative;
 }
+
+header::after {
+    background-color: rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+header * {
+    z-index: 1;
+}
+
+header h1 {
+    margin: 0px 0px 30px;
+}
+
+form {
+    position: relative;
+    max-width: 100%;
+    width: 500px;
+}
+
+form input {
+    border: 0px;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 15px 30px;
+    width: 100%;
+}
+
+form button {
+    background-color: #000000;
+    border: 0px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 13px 30px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.btn {
+    background-color: #8D56FD;
+    border: 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 4px 10px;
+}
+
+ul.songs {
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul.songs li {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 100%;
+    width: 500px;
+}
+
+.container h2 {
+    font-weight: 300;
+}
+
+.container p {
+    text-align: center;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.centered button {
+    margin: 15px;
+    transform: scale(1.3);
+}
